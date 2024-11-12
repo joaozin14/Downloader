@@ -38,7 +38,7 @@ st.markdown("""
         text-align: center;
         color: #c4302b;
         text-shadow: 2px 2px 5px red;
-        margin-top: 80px;
+        margin-top: 40px;
         font-size: 25px; 
     }
     </style>
@@ -48,6 +48,10 @@ st.markdown("""
 
 st.markdown("""
     <style>
+    .stDownloadButton {
+        display: flex;
+        justify-content: center;
+    }
     .stDownloadButton > button {
         color: white;
         background-color: #c4302b;
@@ -58,7 +62,6 @@ st.markdown("""
         font-weight: bold;
         cursor: pointer;
         box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
-        font-weight: bold;
     }
     </style>
     """, unsafe_allow_html=True)
