@@ -32,7 +32,7 @@ st.markdown("""
 )
 
 st.markdown("""
-    <h2 class="texto">Insira a URL do vídeo (Copie a URL do vídeo do YOUTUBE) para que o download inicie 👍🏻</h2> 
+    <h2 class="texto">Insira a URL do vídeo (Copie a URL do YOUTUBE) para que o download inicie 👍🏻</h2> 
     <style>
     .texto {
         text-align: center;
